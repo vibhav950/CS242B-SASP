@@ -18,8 +18,13 @@
 */
 
 /*
-    Program to write to the FIFO, must be run in at the same time as its
-    read counterpart mkfifo_read.c.
+    Program to write to the FIFO; must be run with its read counterpart
+    mkfifo_read.c for the demonstration.
+
+    1. Open two split terminals.
+    2. Run this exe.
+    3. Wait for a few seconds to see what happens.
+    4. Run the read exe.
 */
 
 #include <stdio.h>
